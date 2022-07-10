@@ -1,0 +1,29 @@
+.experience-box {
+    background-color: rgba($color-white, 0.8);
+    font-size: 1.5rem;
+    padding: 5rem 1rem;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+    transition: transform 0.2s;
+
+    &__icon {
+        font-size: 6rem;
+        margin-bottom: 0.5rem;
+        color: $color-primary-light;
+    }
+
+    &:hover {
+        transform: scale(1.05) translateY(-1.5rem);
+        box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
+    }
+
+    &__text {
+        font-weight: 700;
+    }
+
+    &__company-name {
+        color: $color-primary-light;
+        text-decoration: none;
+    }
+}

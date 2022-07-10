@@ -1,0 +1,15 @@
+{
+    "name": "personal-website",
+    "version": "1.0.0",
+    "description": "Personal website",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass sass/main.scss css/style.css",
+        "watch-css": "nodemon -e scss -x \"npm run compile:sass\""
+    },
+    "author": "Ajay Dev",
+    "license": "ISC",
+    "devDependencies": {
+        "node-sass": "^7.0.1"
+    }
+}
