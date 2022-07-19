@@ -1,0 +1,70 @@
+.card-tech-stack {
+    color: $color-white;
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    height: 50rem;
+    overflow: hidden;
+    &__1 {
+        height: 40rem;
+        background-color: $color-light-dark;
+        border-radius: 5rem;
+
+        &--front-end {
+            text-align: center;
+            padding: 5rem;
+        }
+    }
+
+    &__2 {
+        height: 40rem;
+        background-color: $color-light-dark;
+        border-radius: 5rem;
+
+        &--back-end {
+            text-align: center;
+            padding: 5rem;
+        }
+    }
+
+    &__details {
+        padding: 3rem;
+        margin-top: 1rem;
+
+        ul {
+            list-style: none;
+            width: 80%;
+            margin: 0 auto;
+
+            li {
+                text-align: center;
+                font-size: 1.5rem;
+                padding: 1rem;
+
+                &:not(:last-child) {
+                    border-bottom: 1px solid rgba($color-grey-light-1, 0.5);
+                }
+            }
+        }
+    }
+
+    // &__picture {
+    //     &-1 {
+    //         text-align: center;
+    //         background-size: cover;
+    //         height: 19.7rem;
+    //         margin: 0 auto;
+    //         background-image: url(../images/front-end.png);
+    //         border-radius: 1rem 1rem 0 0;
+    //     }
+
+    //     &-2 {
+    //         text-align: center;
+    //         background-size: cover;
+    //         height: 19.7rem;
+
+    //         margin: 0 auto;
+    //         background-image: url(../images/back-end.png);
+    //     }
+    // }
+}

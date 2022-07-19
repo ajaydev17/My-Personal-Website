@@ -12,18 +12,54 @@
             width: 60%;
             left: 0;
             top: -4rem;
+
+            @include respond(tab-port) {
+                width: 25vw;
+                left: 0;
+                top: 2rem;
+            }
+
+            @include respond(phone) {
+                width: 25vw;
+                left: 12%;
+                top: 2rem;
+            }
         }
 
         &--p2 {
             width: 55%;
             right: -2rem;
             top: 8rem;
+
+            @include respond(tab-port) {
+                width: 25vw;
+                right: -1rem;
+                top: 5rem;
+            }
+
+            @include respond(phone) {
+                width: 25vw;
+                right: 3rem;
+                top: 5rem;
+            }
         }
 
         &--p3 {
             width: 55%;
             left: 10%;
             top: 18rem;
+
+            @include respond(tab-port) {
+                width: 25vw;
+                left: 10%;
+                top: 12rem;
+            }
+
+            @include respond(phone) {
+                width: 25vw;
+                left: 20%;
+                top: 12rem;
+            }
         }
 
         &:hover {
