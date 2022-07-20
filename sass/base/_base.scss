@@ -34,6 +34,6 @@ body {
 
     @include respond(tab-port) {
         // font-size: 50%; // or 8px 8/16 = 50%
-        padding: 2rem;
+        padding: 1.5rem;
     }
 }
