@@ -69,7 +69,7 @@ body {
   padding: 3rem; }
   @media only screen and (max-width: 56.25em) {
     body {
-      padding: 0; } }
+      padding: 2rem; } }
 
 body {
   font-family: "Lato", sans-serif;
